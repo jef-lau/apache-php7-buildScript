@@ -24,7 +24,7 @@ cat /etc/hosts
 sudo apt-get update && sudo apt-get upgrade -y
 
 ## start install of applicationa ##
-sudo apt-get install apache2 zip unzip curl git
+sudo apt-get install -y apache2 zip unzip curl git
 
 ## start install php ##
 sudo apt-get install -y php7.0 libapache2-mod-php7.0 php7.0-mysql php7.0-xml php7.0-mbstring php7.0-curl php7.0-mcrypt \
