@@ -38,7 +38,6 @@ sudo addgroup ubuntu www-data
 
 ## set www permision ##
 sudo chown -R www-data:www-data /var/www/
-sudo chmod -R g+wrx /var/www/html/
 sudo chmod -R 775 /var/www/ 
 
 ## apache and php mods ##
